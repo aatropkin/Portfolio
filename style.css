@@ -1,0 +1,352 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #000;
+    color: #fff;
+    font-family: 'Inter';
+}
+.promo {
+    background: url(assets/img/bg.jpg) center no-repeat;
+    width: 1440px;
+    height: 910px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+.container { 
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90px;
+}
+
+.nav { }
+.logo-svg{
+    fill: #fff;
+}
+.logo-svg:hover{
+    fill: #BDAE82;
+}
+
+.navitems { 
+    display: flex;
+    justify-content: space-around;
+}
+a{
+   text-decoration: none;   
+}
+.nav-item {
+    list-style: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 0 8px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ }
+ 
+.titlemain {
+    margin-top: 183px;
+    margin-left: 59px;
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+ }
+.hero-desc {
+    width: 470px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 32px;
+    margin-left: 59px;
+    color: #FFFFFF;
+}
+.gold-but { 
+    width: 220px;
+    height: 55px;
+    margin-top: 25px;
+    margin-left: 60px;
+    background: #BDAE82;
+
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.skills{
+    max-height: 482px;
+    padding-top: 114px 
+}
+.title{
+    display: block;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 40px;
+    color: #BDAE82;
+}
+fieldset {
+    display: inline-block;
+    width: 700px;
+    border: 2px solid #BDAE82;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    color: #BDAE82;
+}
+legend{
+  padding: 0 20px;  
+}
+
+.skills-items{
+    color:#fff;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 63px;
+
+}
+.skills-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 55px;
+}
+.skill-desc{
+    width: 280px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 28px;
+}
+.portfolio{
+    min-height: 1500px;
+    pading: 0 20px;
+    padding-top: 125px;
+}
+
+.portfolio-buts{
+    display: flex;
+    justify-content: center;
+}
+
+
+.portfolio-but{
+    width: 220px;
+    height: 55px;
+    margin-top: 65px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+
+    background: #000;
+
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #BDAE82;
+    border: 2px solid #BDAE82;
+    border-radius: 0px;
+}
+.portfolio-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:  60px auto;
+}
+
+.portfolio-item{
+    margin-bottom: 25px;
+
+}
+
+.video{
+    min-height: 945px;
+    padding-top: 30px;
+
+}
+
+.video-item{
+    margin:66px 0;
+    margin-left: 19px;
+}
+
+.price{
+    min-height: 760px;
+    padding-top: 29px;
+}
+
+.price-items{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5px;
+    margin-top: 66px;
+}
+.price-item{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #BDAE82;
+    min-width: 450px;
+    min-height: 505px;
+}
+
+.price-item-title {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 49px;
+}
+.ptice-item-price { 
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    color: #BDAE82;
+    margin-top: 33px;
+
+}
+
+.price-item-desc {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center; 
+    color: #FFFFFF;
+    margin-top: 18px;
+}
+
+.price-item-but {
+    width: 220px;
+    height: 55px;
+    margin: 0 auto;
+    background: #BDAE82;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000; 
+    margin-top: 39px;
+   text-align: center;
+}
+.contacts{
+    background: url(assets/img/contacts-img.jpg) center no-repeat;
+    width: 1440px;
+    height: 700px;
+    margin: 0 auto;
+    padding-top: 59px;
+    padding-left: 970px;
+}
+.contacts-form{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+    
+}
+.contacts-title{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80px;
+    color: #BDAE82;    
+    margin-bottom: 22px;
+
+}
+.contacts-item{
+    height: 50px;
+    width: 450px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid #BDAE82;
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 18px;
+    text-align: left;
+    color: #BDAE82;
+}
+.contacts-item-text{
+    height: 100px;
+    padding-bottom: 51px;
+
+}
+.contacts-but{
+    width: 220px;
+    height: 55px;
+    margin-top: 29px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    background: #BDAE82;
+    color: #000000;
+}
+.footer{
+    min-height: 150px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+}
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 8px;
+    min-height: 150px;
+}
+
+.footer-item-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-item-text{
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item-title{
+    padding-left: 28px;
+}
+.footer-icon{
+    padding: 0 14px;
+}
